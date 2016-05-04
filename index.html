@@ -8,30 +8,18 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <meta http-equiv="refresh" content="0; url=http://roozeppe.github.io/under-construction/"/>
-
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div>
-    <input type="file" id="file" />  
-  </div>
-  <div id="image-container">
-    <canvas width="500" height="500"></canvas>
-    <div>
-      <span>Top Line:</span><br/>
-      <input id="topLineText" type="text"><br/>
-      <span>Bottom Line:</span><br/>
-      <input id="bottomLineText" type="text"><br/>
-      <button id="grayscaleBtn">Gray-scale</button>
-      <button id="invertBtn">Invert</button>
-      <button id="saveBtn">Save</button>
-    </div>
-  </div>
+	<canvas id="canvas" width="500" height="500"></canvas>
+	<div>
+	  <input id="grayscalebtn" value="Grayscale" type="button">
+	  <input id="invertbtn" value="Invert" type="button">
+	</div>
 
-  <script src='script.js'></script>
+  	<script src='script.js'></script>
 
 </body>
 </html>
